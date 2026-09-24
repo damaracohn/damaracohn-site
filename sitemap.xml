@@ -126,18 +126,18 @@
     <priority>0.2</priority>
   </url>
   <url>
-        <loc>https://damaracohn.com/hypoluxo-island.html</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
+    <loc>https://damaracohn.com/hypoluxo-island.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-        <loc>https://damaracohn.com/lake-worth-beach.html</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
+    <loc>https://damaracohn.com/lake-worth-beach.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-        <loc>https://damaracohn.com/manalapan.html</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
+    <loc>https://damaracohn.com/manalapan.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
