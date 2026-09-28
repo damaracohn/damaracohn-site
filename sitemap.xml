@@ -21,6 +21,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://damaracohn.com/testimonials.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://damaracohn.com/the-real-delray-beach-guide.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
