@@ -264,5 +264,34 @@
 
 </script>
 
+
+<section class="video-block" style="text-align:center;padding:40px 16px;border-top:1px solid #e5e5e5;">
+  <div class="eyebrow" style="margin-bottom:12px;">DEERFIELD BEACH &middot; LOCAL INSIGHT</div>
+  <h2 style="max-width:680px;margin:0 auto 20px;">Why Buyers Skip Deerfield Beach &mdash; and Why That's a Mistake</h2>
+  <div class="facade" data-yt="4djxK99X2eE" style="max-width:400px;aspect-ratio:9/16;background:#111 center/cover no-repeat;background-image:url('https://i.ytimg.com/vi/4djxK99X2eE/hqdefault.jpg');border-radius:14px;position:relative;cursor:pointer;margin:0 auto 24px;">
+    <button class="play-btn" aria-label="Play video" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:64px;height:64px;border-radius:50%;background:rgba(0,0,0,.65);border:2px solid #fff;color:#fff;font-size:22px;">&#9658;</button>
+  </div>
+  <div style="max-width:680px;margin:0 auto;text-align:left;font-size:1rem;line-height:1.6;color:#333;">
+    <p>Deerfield Beach gets skipped by buyers scanning straight from Boca to Fort Lauderdale, which is exactly why it's worth a second look. It's an oceanfront town that hasn't been fully discovered yet, with value that's harder to find further up or down the coast.</p>
+  </div>
+</section>
+<script>
+(function(){
+  document.querySelectorAll('.facade').forEach(function(f){
+    f.addEventListener('click', function(){
+      var id = f.getAttribute('data-yt');
+      var iframe = document.createElement('iframe');
+      iframe.setAttribute('width','100%');
+      iframe.setAttribute('height','100%');
+      iframe.setAttribute('style','position:absolute;top:0;left:0;border:0;border-radius:14px;');
+      iframe.setAttribute('src','https://www.youtube-nocookie.com/embed/'+id+'?autoplay=1');
+      iframe.setAttribute('allow','autoplay; encrypted-media');
+      iframe.setAttribute('allowfullscreen','');
+      f.innerHTML='';
+      f.appendChild(iframe);
+    });
+  });
+})();
+</script>
 </body>
 </html>
