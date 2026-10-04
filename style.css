@@ -129,7 +129,7 @@
   .has-sub:nth-last-child(-n+2) .sub-menu{left:auto;right:0;}
   .has-sub.open>.sub-menu{display:block;}
   .sub-menu.cols{min-width:440px;}
-  .has-sub.open>.sub-menu.cols{display:grid;grid-template-columns:1fr 1fr;column-gap:4px;}
+  .has-sub.open>.sub-menu.cols{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(7,auto);grid-auto-flow:column;column-gap:4px;}
   .nav-links .sub-menu a{
     display:block;text-transform:none;letter-spacing:0;font-size:.95rem;font-weight:600;
     padding:9px 20px;border-bottom:0;white-space:normal;color:var(--charcoal);
