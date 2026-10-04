@@ -31,24 +31,73 @@ gtag('config', 'G-JL73MHQ3LC');
 </head>
 <body>
 
-<header class="site-header">
-  <div class="bar">Call (561) 637-4559 &middot; Text (561) 637-4559</div>
-  <div class="nav-wrap">
-    <a href="/" class="logo">Damara Cohn</a>
-    <button id="navToggle" aria-label="Menu">&#9776;</button>
-    <div id="navLinks" class="nav-links">
-      <a href="/#towns">Towns</a>
-      <a href="/neighborhoods">Neighborhoods</a>
-      <a href="/#contact">Contact</a>
-      <a href="/listing-playbook">Join the Team</a>
-      <a href="/#explore">Explore</a>
-      <a href="/financing">Financing</a>
-      <a href="/coastal-insider-guide">Guide</a>
-      <a href="/#about">About</a>
-      <a href="/testimonials">Testimonials</a>
-    </div>
-    <a class="call" href="tel:+15616374559">Call (561) 637-4559</a>
+<header>
+  <div class="top-bar">
+    <a href="tel:+15616374559">Call (561) 637-4559</a><span class="top-bar-sep">&middot;</span><a href="sms:+15616374559">Text (561) 637-4559</a>
   </div>
+  <nav class="nav">
+    <a href="/" class="wordmark">Damara Cohn</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+    <ul class="nav-links" id="navLinks">
+      <li class="has-sub">
+        <button type="button" class="sub-toggle" aria-expanded="false" aria-haspopup="true">About &amp; Contact</button>
+        <ul class="sub-menu">
+        <li><a href="/#about">About Damara</a></li>
+        <li><a href="/#contact">Contact</a></li>
+        <li><a href="/#work-with-me">Join the Team</a></li>
+        <li><a href="/testimonials">Testimonials</a></li>
+        <li><a href="/#videos">Videos</a></li>
+        </ul>
+      </li>
+      <li class="has-sub">
+        <button type="button" class="sub-toggle" aria-expanded="false" aria-haspopup="true">Buy &amp; Sell</button>
+        <ul class="sub-menu">
+        <li><a href="/financing">Financing</a></li>
+        <li><a href="/#explore">What&rsquo;s My Home Worth?</a></li>
+        </ul>
+      </li>
+      <li class="has-sub">
+        <button type="button" class="sub-toggle" aria-expanded="false" aria-haspopup="true">Guides &amp; Answers</button>
+        <ul class="sub-menu">
+        <li><a href="/faq">Ask Damara (FAQ)</a></li>
+        <li><a href="/coastal-insider-guide">Coastal Insider Guide</a></li>
+        <li><a href="/listing-playbook">Listing Playbook</a></li>
+        <li><a href="/the-real-delray-beach-guide">The Real Delray Beach Guide</a></li>
+        <li class="sub-label" role="presentation">Delray Beach Questions</li>
+        <li><a href="/best-delray-beach-neighborhood-for-me">Best Delray Neighborhood for Me</a></li>
+        <li><a href="/best-delray-beach-happy-hours">Best Happy Hours</a></li>
+        <li><a href="/delray-beach-nightlife">Delray Beach Nightlife</a></li>
+        <li><a href="/does-brightline-stop-in-delray-beach">Does Brightline Stop in Delray?</a></li>
+        <li><a href="/is-delray-beach-expensive">Is Delray Beach Expensive?</a></li>
+        <li><a href="/best-delray-beach-restaurants-locals-go">Restaurants Locals Go To</a></li>
+        <li><a href="/where-to-stay-in-delray-beach-house-hunting">Where to Stay While House Hunting</a></li>
+        </ul>
+      </li>
+      <li class="has-sub">
+        <button type="button" class="sub-toggle" aria-expanded="false" aria-haspopup="true">Towns &amp; Neighborhoods</button>
+        <ul class="sub-menu cols">
+        <li><a href="/neighborhoods">All Neighborhoods</a></li>
+        <li><a href="/boca-raton">Boca Raton</a></li>
+        <li><a href="/boynton-beach">Boynton Beach</a></li>
+        <li><a href="/country-clubs">Country Clubs</a></li>
+        <li><a href="/deerfield-beach">Deerfield Beach</a></li>
+        <li><a href="/delray-beach">Delray Beach</a></li>
+        <li><a href="/gulf-stream">Gulf Stream</a></li>
+        <li><a href="/highland-beach">Highland Beach</a></li>
+        <li><a href="/hypoluxo-island">Hypoluxo Island</a></li>
+        <li><a href="/lake-worth-beach">Lake Worth Beach</a></li>
+        <li><a href="/lighthouse-point">Lighthouse Point</a></li>
+        <li><a href="/manalapan">Manalapan</a></li>
+        <li><a href="/ocean-ridge">Ocean Ridge</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="nav-cta">
+      <a href="/#guide" class="btn btn-outline">Get the Guide</a>
+      <a href="tel:+15616374559" class="btn btn-primary">Call</a>
+      <a href="sms:+15616374559" class="btn btn-primary">Text</a>
+    </div>
+  </nav>
 </header>
 
 <section class="hero">
@@ -108,5 +157,6 @@ gtag('config', 'G-JL73MHQ3LC');
 })();
 </script>
 
+<script src="/nav.js" defer></script>
 </body>
 </html>
