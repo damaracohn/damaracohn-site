@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://damaracohn.com/sitemap.xml
+LLM-Content: https://damaracohn.com/llms.txt
