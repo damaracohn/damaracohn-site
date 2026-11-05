@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://damaracohn.com/sitemap-index.xml
 Sitemap: https://damaracohn.com/sitemap.xml
+Sitemap: https://damaracohn.com/sitemap-video.xml
 LLM-Content: https://damaracohn.com/llms.txt
