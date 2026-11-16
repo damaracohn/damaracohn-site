@@ -21,6 +21,7 @@ const GUIDES_AND_ANSWERS_HTML = `
 <li><a href="/moving-from-chicago-illinois-to-delray-beach">Moving from Chicago &amp; Illinois to Delray Beach</a></li>
 <li><a href="/moving-from-connecticut-to-delray-beach">Moving from Connecticut to Delray Beach</a></li>
 <li><a href="/moving-from-dc-maryland-virginia-to-delray-beach">Moving from the DC Metro Area to Delray Beach</a></li>
+<li><a href="/moving-from-massachusetts-boston-to-delray-beach">Moving from Massachusetts &amp; Boston to Delray Beach</a></li>
 <li><a href="/moving-from-michigan-detroit-to-delray-beach">Moving from Michigan &amp; Detroit to Delray Beach</a></li>
 <li><a href="/moving-from-new-jersey-to-delray-beach">Moving from New Jersey to Delray Beach</a></li>
 <li><a href="/moving-from-new-york-to-delray-beach">Moving from New York to Delray Beach</a></li>
@@ -32,6 +33,8 @@ const GUIDES_AND_ANSWERS_HTML = `
 <li><a href="/is-delray-beach-expensive">Is Delray Beach Expensive?</a></li>
 <li><a href="/best-delray-beach-restaurants-locals-go">Restaurants Locals Go To</a></li>
 <li><a href="/where-to-stay-in-delray-beach-house-hunting">Where to Stay While House Hunting</a></li>
+<li class="sub-label" role="presentation">Boca Raton Questions</li>
+<li><a href="/is-boca-raton-expensive">Is Boca Raton Expensive?</a></li>
 `.trim();
 
 class GuidesDropdownRewriter {
