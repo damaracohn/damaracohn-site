@@ -17,6 +17,7 @@ const GUIDES_AND_ANSWERS_HTML = `
 <li><a href="/listing-playbook">Listing Playbook</a></li>
 <li><a href="/the-real-delray-beach-guide">The Real Delray Beach Guide</a></li>
 <li class="sub-label" role="presentation">Relocation Guides</li>
+<li><a href="/moving-from-california-to-delray-beach">Moving from California to Delray Beach</a></li>
 <li><a href="/moving-from-chicago-illinois-to-delray-beach">Moving from Chicago &amp; Illinois to Delray Beach</a></li>
 <li><a href="/moving-from-connecticut-to-delray-beach">Moving from Connecticut to Delray Beach</a></li>
 <li><a href="/moving-from-dc-maryland-virginia-to-delray-beach">Moving from the DC Metro Area to Delray Beach</a></li>
