@@ -16,6 +16,12 @@ const GUIDES_AND_ANSWERS_HTML = `
 <li><a href="/coastal-insider-guide">Coastal Insider Guide</a></li>
 <li><a href="/listing-playbook">Listing Playbook</a></li>
 <li><a href="/the-real-delray-beach-guide">The Real Delray Beach Guide</a></li>
+<li class="sub-label" role="presentation">Taxes &amp; Insurance</li>
+<li><a href="/how-much-are-property-taxes-in-palm-beach-county">Property Taxes in Palm Beach County</a></li>
+<li><a href="/how-does-save-our-homes-portability-work">Save Our Homes Portability</a></li>
+<li><a href="/do-seniors-pay-property-taxes-in-florida">Do Seniors Pay Property Taxes?</a></li>
+<li><a href="/why-is-homeowners-insurance-so-expensive-in-florida">Why Florida Insurance Costs So Much</a></li>
+<li><a href="/how-to-lower-homeowners-insurance-in-florida">How to Lower Homeowners Insurance</a></li>
 <li class="sub-label" role="presentation">Relocation Guides</li>
 <li><a href="/moving-from-california-to-delray-beach">Moving from California to Delray Beach</a></li>
 <li><a href="/moving-from-chicago-illinois-to-delray-beach">Moving from Chicago &amp; Illinois to Delray Beach</a></li>
