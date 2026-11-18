@@ -16,12 +16,13 @@ const GUIDES_AND_ANSWERS_HTML = `
 <li><a href="/coastal-insider-guide">Coastal Insider Guide</a></li>
 <li><a href="/listing-playbook">Listing Playbook</a></li>
 <li><a href="/the-real-delray-beach-guide">The Real Delray Beach Guide</a></li>
-<li class="sub-label" role="presentation">Taxes &amp; Insurance</li>
+<li class="sub-label" role="presentation">Taxes, Insurance &amp; Downsizing</li>
 <li><a href="/how-much-are-property-taxes-in-palm-beach-county">Property Taxes in Palm Beach County</a></li>
 <li><a href="/how-does-save-our-homes-portability-work">Save Our Homes Portability</a></li>
 <li><a href="/do-seniors-pay-property-taxes-in-florida">Do Seniors Pay Property Taxes?</a></li>
 <li><a href="/why-is-homeowners-insurance-so-expensive-in-florida">Why Florida Insurance Costs So Much</a></li>
 <li><a href="/how-to-lower-homeowners-insurance-in-florida">How to Lower Homeowners Insurance</a></li>
+<li><a href="/should-i-sell-my-house-and-buy-a-condo-in-florida">Should I Sell My House and Buy a Condo?</a></li>
 <li class="sub-label" role="presentation">Relocation Guides</li>
 <li><a href="/moving-from-california-to-delray-beach">Moving from California to Delray Beach</a></li>
 <li><a href="/moving-from-chicago-illinois-to-delray-beach">Moving from Chicago &amp; Illinois to Delray Beach</a></li>
@@ -36,10 +37,12 @@ const GUIDES_AND_ANSWERS_HTML = `
 <li><a href="/best-delray-beach-happy-hours">Best Happy Hours</a></li>
 <li><a href="/delray-beach-nightlife">Delray Beach Nightlife</a></li>
 <li><a href="/does-brightline-stop-in-delray-beach">Does Brightline Stop in Delray?</a></li>
+<li><a href="/delray-beach-55-plus-communities">55+ Communities in Delray Beach</a></li>
 <li><a href="/is-delray-beach-expensive">Is Delray Beach Expensive?</a></li>
 <li><a href="/best-delray-beach-restaurants-locals-go">Restaurants Locals Go To</a></li>
 <li><a href="/where-to-stay-in-delray-beach-house-hunting">Where to Stay While House Hunting</a></li>
 <li class="sub-label" role="presentation">Boca Raton Questions</li>
+<li><a href="/how-much-are-hoa-fees-in-boca-raton">HOA Fees in Boca Raton</a></li>
 <li><a href="/is-boca-raton-expensive">Is Boca Raton Expensive?</a></li>
 `.trim();
 
