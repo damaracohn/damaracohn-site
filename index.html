@@ -419,6 +419,12 @@
 
   /* ---------- SECTION SHELL ---------- */
   section{padding:84px 0;}
+  .quiz-band{background:var(--gold);color:var(--white);padding:28px 0;}
+  .quiz-band .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px 32px;flex-wrap:wrap;}
+  .quiz-band h2{color:var(--white);font-size:clamp(1.3rem,2.4vw,1.75rem);margin:0 0 4px;}
+  .quiz-band p{margin:0;color:var(--white);opacity:.95;font-size:1.02rem;}
+  .quiz-band .btn{background:var(--white);color:var(--ink);border-color:var(--white);}
+  .quiz-band .btn:hover{background:var(--ink);color:var(--white);border-color:var(--ink);}
   .section-head{max-width:640px;margin:0 auto 44px;text-align:center;}
   .section-head h2{font-size:clamp(1.75rem,3vw,2.35rem);}
   .section-head p{color:var(--muted);font-size:1.02rem;}
@@ -741,6 +747,17 @@
     </div>
   </div>
 
+  <!-- COASTAL VIBE QUIZ -->
+  <section class="quiz-band" id="quiz" aria-label="Coastal Vibe Quiz">
+    <div class="wrap">
+      <div>
+        <h2>What's Your Coastal Vibe?</h2>
+        <p>Five quick questions to find the coastal town that fits your lifestyle and budget. Takes about a minute.</p>
+      </div>
+      <a class="btn btn-lg" href="https://www.mangroverealty.com/coastal-vibe-quiz/?utm_source=damaracohncom&amp;utm_medium=website&amp;utm_campaign=coastal_vibe_quiz" target="_blank" rel="noopener">Take the 1-Minute Quiz &rarr;</a>
+    </div>
+  </section>
+
   <!-- CITIES / CORRIDOR -->
   <section class="cities" id="cities">
     <div class="wrap">
@@ -888,12 +905,6 @@
           <strong>New Construction</strong>
           <span class="desc">Brand-new builds, 2025+, across the corridor.</span>
           <span class="arrow">Search new builds →</span>
-        </a>
-        <a class="explore-tile" style="grid-column:1/-1" href="https://www.mangroverealty.com/coastal-vibe-quiz/?utm_source=damaracohncom&amp;utm_medium=website&amp;utm_campaign=coastal_vibe_quiz" target="_blank" rel="noopener">
-          <span class="icon">&#127754;</span>
-          <strong>What's Your Coastal Vibe?</strong>
-          <span class="desc">Five quick questions to find the coastal town that fits your lifestyle and budget.</span>
-          <span class="arrow">Take the 1-minute quiz &rarr;</span>
         </a>
       </div>
       <div class="zip-search">
